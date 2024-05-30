@@ -1,19 +1,29 @@
-# Sistema de Locadora de Livros
+# Projeto de Software - Sistema de Locação de Livros
 
-## Descrição do Projeto
+## Descrição Geral
+Este projeto faz parte da unidade curricular "Modelos, Métodos e Técnicas de Engenharia de Software" da Universidade do Sul de Santa Catarina (UNISUL), orientado pelo professor Richard Henrique de Souza. O objetivo do trabalho é desenvolver um sistema de locação de livros, utilizando modelos, métodos e técnicas de engenharia de software para atender a uma necessidade fictícia do cotidiano.
 
-Este projeto é um sistema de locadora de livros desenvolvido como parte da avaliação A3 da faculdade. O objetivo é criar um sistema funcional que permita aos usuários cadastrarem-se, fazerem login, pesquisar livros disponíveis, alugar livros e gerenciar suas locações.
+## Objetivos
+- **Desenvolver habilidades de engenharia de software**: Projetar e desenvolver sistemas utilizando diferentes modelos de processo de software.
+- **Aplicação de conhecimentos teóricos**: Reconhecer e aplicar as fases da engenharia de requisitos, identificar tipos de arquitetura de software, selecionar princípios e práticas do desenvolvimento ágil, e aplicar padrões de projeto e boas práticas de arquitetura de software.
 
-## Objetivo
+## Funcionalidades Principais
 
-O objetivo deste projeto é fornecer uma solução completa para o gerenciamento de locação de livros. Este repositório contém toda a modelagem necessária para a construção do sistema, servindo como base para a implementação real.
+### Cadastro de Usuários
+- Permite o cadastro de novos usuários com validação de informações como nome completo, CPF, e-mail, senha e confirmação de senha.
 
-## Entrega
+### Login e Recuperação de Senha
+- Autenticação de usuários utilizando e-mail e senha.
+- Recuperação de senha para usuários registrados.
 
-O sistema final entrega:
-- Um cadastro e autenticação de usuários.
-- Pesquisa e visualização de livros disponíveis para aluguel.
-- Funcionalidade de aluguel de livros com registro de datas.
-- Histórico de aluguéis dos usuários.
+### Painel Principal
+- Exibição de livros disponíveis para locação, separados por tópicos.
+- Menu lateral com acesso aos módulos: Home, Disponíveis, Locar, Locados, Histórico e Sair.
+- Pesquisa de livros por título, autor ou categoria.
 
-Este repositório serve para organizar e apresentar toda a modelagem do sistema.
+### Locação de Livros
+- Seleção de livros para locação com definição automática de data de devolução (dois meses a partir da data de locação).
+- Registro de datas de locação e previsão de devolução.
+
+### Gestão de Locações
+- Exibição de livros atualmente locados e informações sobre locações passadas no histórico, incluindo status (pendente, devolvido, em atraso).
