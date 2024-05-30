@@ -1,4 +1,4 @@
-## Requisitos Não Funcionais Atualizados
+## Requisitos Não Funcionais
 
 1. **Segurança**
    - O sistema deve criptografar as senhas dos usuários usando algoritmos de criptografia robustos.
