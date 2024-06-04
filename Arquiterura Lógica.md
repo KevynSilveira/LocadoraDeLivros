@@ -16,7 +16,7 @@
 
 - **Interface de Usuário (UI):**
   - Implementada em HTML, CSS e JavaScript.
-  - Frameworks como React, Angular ou Vue.js podem ser usados.
+  - Framework React.
   - Segue diretrizes de acessibilidade WCAG 2.1.
 - **Gerenciamento de Sessão:**
   - Lida com a manutenção de sessões de usuário.
