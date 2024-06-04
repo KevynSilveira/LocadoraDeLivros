@@ -54,7 +54,7 @@
 
 #### Tecnologias:
 
-- Frameworks de desenvolvimento web como Node.js com Express, Django ou Spring Boot.
+- Frameworks de desenvolvimento web - Node.js com Express.
 
 #### Fluxos de Dados:
 
